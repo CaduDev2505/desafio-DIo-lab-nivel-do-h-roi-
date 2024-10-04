@@ -3,7 +3,6 @@ let heroi = "link";
 let xp =  Math.floor(Math.random() * 15000);
 let ranking = "";
 //adicionei uma variável para mostrar o nível de xp e o ranking do héroi 
-let status = "";
 
 if (xp < 1000) {
  ranking = "ferro"
