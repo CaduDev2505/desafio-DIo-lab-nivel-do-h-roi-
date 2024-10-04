@@ -1,5 +1,7 @@
 let heroi = "link";
+// aqui eu usei uma função para aleatoriozar o código, assim toda vez que rodar vamos ter um resultado diferente! 
 let xp =  Math.floor(Math.random() * 15000);
+//adicionei uma variável para mostrar o nível de xp e o ranking do héroi 
 let status = "";
 
 if (xp < 1000) {
