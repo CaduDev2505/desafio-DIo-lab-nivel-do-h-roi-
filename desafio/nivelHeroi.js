@@ -1,12 +1,9 @@
 let heroi = "link";
 // aqui eu usei uma função para aleatoriozar o código, assim toda vez que rodar vamos ter um resultado diferente! 
 let xp =  Math.floor(Math.random() * 15000);
-<<<<<<< HEAD
 let ranking = "";
-=======
 //adicionei uma variável para mostrar o nível de xp e o ranking do héroi 
 let status = "";
->>>>>>> c7490a80bb618a114542b8a9ae1644904c1eddb8
 
 if (xp < 1000) {
  ranking = "ferro"
@@ -30,12 +27,6 @@ if (xp < 1000) {
  ranking = "imortal";
     console.log("o heroi de nome " + heroi + " esta com o xp de " + xp + " com o ranking de " + ranking);
 } else {
-<<<<<<< HEAD
  ranking = "radiante";
     console.log("o heroi de nome " + heroi + " esta com o xp de " + xp + " com o ranking de " + ranking);
 };
-=======
-    status = "radiante";
-    console.log("o heroi de nome " + heroi + " esta com o xp de " + xp + " com o ranking de " + status);
-};
->>>>>>> c7490a80bb618a114542b8a9ae1644904c1eddb8
